@@ -2,14 +2,14 @@
 ## Files
 
 * ```data/SGJobData.csv.xz```, this file is the CSV file data source for the project, except compressed so that GitHub can accept it.
-    * processed data are saved as '.parquet' files, and prefixed with 'cleaned', 3 files:
+    * processed data are saved as ```'*.parquet'``` files, and prefixed with 'cleaned', 3 files:
         * pre-exploded categories
         * post-exploded categories
         * pre-explode categories with skills
 * ```notebooks/*.ipynb```, jupyter notebook for testing out graphs and commands etc.
-    * -eda.ipynb, file that generated the cleaned parquet dfs
-    * -ed-ml.ipynb, can ignore, first trial for generating skillslist
-    * visualplayground.ipynb, code for the visual to test out before putting in app.py
+    * ```-eda.ipynb```, file that generated the cleaned parquet dfs
+    * ```-ed-ml.ipynb```, can ignore, first trial for generating skillslist
+    * ```visualplayground.ipynb```, code for the visual to test out before putting in app.py
 * ```app.py```, main source code for streamlit application hosting
     * run this in streamlit
 
