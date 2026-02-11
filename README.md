@@ -40,3 +40,9 @@ uv is a Python environment manager. To set up the environment, run the following
 
 ## Links
 * [Skills Framework Dataset](https://jobsandskills.skillsfuture.gov.sg/frameworks/skills-frameworks)
+
+## Git & GitHub
+* ```eval "$(ssh-agent -s)" ```
+* ```ssh-add ~/.ssh/id_ed25519```
+* ```ssh-add -l  ```
+* ```ssh -T git@github.com```
